@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "cafe_app#home"
   get "cafe_app/home"
 
   # test
